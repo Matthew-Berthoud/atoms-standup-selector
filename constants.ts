@@ -9,11 +9,11 @@ export const SECRET_ORDER = [
   "Semantics",
   "Sensemaking",
   "AI",
-  "Aggressor",
+  "Aggressor"
 ];
 
 // Helper to shuffle an array (Fisher-Yates)
-export const shuffleArray = <T>(array: T[]): T[] => {
+export const shuffleArray = <T,>(array: T[]): T[] => {
   const newArray = [...array];
   for (let i = newArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -21,4 +21,3 @@ export const shuffleArray = <T>(array: T[]): T[] => {
   }
   return newArray;
 };
-
