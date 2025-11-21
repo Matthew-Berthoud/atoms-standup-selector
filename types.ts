@@ -8,3 +8,4 @@ export interface SelectionResult {
   team: Team | null;
   isFinished: boolean;
 }
+

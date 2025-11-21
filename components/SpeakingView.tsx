@@ -1,13 +1,16 @@
-import React from 'react';
-import { Check } from 'lucide-react';
-import { Team } from '../types';
+import React from "react";
+import { Check } from "lucide-react";
+import { Team } from "../types";
 
 interface SpeakingViewProps {
   team: Team;
   onFinish: () => void;
 }
 
-export const SpeakingView: React.FC<SpeakingViewProps> = ({ team, onFinish }) => {
+export const SpeakingView: React.FC<SpeakingViewProps> = ({
+  team,
+  onFinish,
+}) => {
   return (
     <div className="flex flex-col items-center justify-center w-full animate-in fade-in zoom-in-95 duration-300">
       {/* Sound Wave Animation - Compacted */}
@@ -18,8 +21,8 @@ export const SpeakingView: React.FC<SpeakingViewProps> = ({ team, onFinish }) =>
             className="w-2.5 bg-brand-gold rounded-full animate-sound"
             style={{
               animationDelay: `${i * 0.1}s`,
-              animationDuration: '1.2s',
-              height: '20%' 
+              animationDuration: "1.2s",
+              height: "20%",
             }}
           />
         ))}
@@ -68,3 +71,4 @@ export const SpeakingView: React.FC<SpeakingViewProps> = ({ team, onFinish }) =>
     </div>
   );
 };
+
