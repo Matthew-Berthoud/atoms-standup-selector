@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,19 +11,22 @@
           extend: {
             colors: {
               brand: {
-                gold: 'rgb(151, 133, 97)', // The specific color requested
-                dark: '#1a1a1a',
-                panel: '#262626',
-              }
+                gold: "rgb(151, 133, 97)", // The specific color requested
+                dark: "#1a1a1a",
+                panel: "#262626",
+              },
             },
             fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-            }
-          }
-        }
-      }
+              sans: ["Inter", "sans-serif"],
+            },
+          },
+        },
+      };
     </script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <style>
       body {
         background-color: #121212;
@@ -34,29 +37,30 @@
         width: 8px;
       }
       ::-webkit-scrollbar-track {
-        background: #1a1a1a; 
+        background: #1a1a1a;
       }
       ::-webkit-scrollbar-thumb {
-        background: rgb(151, 133, 97); 
+        background: rgb(151, 133, 97);
         border-radius: 4px;
       }
       ::-webkit-scrollbar-thumb:hover {
-        background: rgb(171, 153, 117); 
+        background: rgb(171, 153, 117);
       }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0"
-  }
-}
-</script>
-</head>
+    <script type="importmap">
+      {
+        "imports": {
+          "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+          "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+          "react/": "https://aistudiocdn.com/react@^19.2.0/",
+          "react": "https://aistudiocdn.com/react@^19.2.0"
+        }
+      }
+    </script>
+  </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
   </body>
 </html>
+
