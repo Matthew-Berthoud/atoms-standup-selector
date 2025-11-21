@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { X, Check, Ban } from "lucide-react";
+import { Check, Ban } from "lucide-react";
 import { Team } from "../types";
 
 interface SelectionModalProps {

@@ -189,8 +189,8 @@ const App: React.FC = () => {
 
         {/* Empty State / Footer Info */}
         <div className="mt-16 text-center border-t border-white/5 pt-8">
-          <p className="text-sm text-gray-600 italic">
-            "Secretly just follows the order given."
+          <p className="text-sm text-gray-600">
+            &copy; {new Date().getFullYear()} Pie Guy Enterprises
           </p>
         </div>
       </main>
